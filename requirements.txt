@@ -3,6 +3,5 @@ opencv-python-headless
 numpy
 tensorflow
 pillow
-sqlite3
 pandas
 
