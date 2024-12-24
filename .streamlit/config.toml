@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#3A6351"                   # Dark Forest Green
+backgroundColor = "#E6F2E0"                 # Pale Green
+secondaryBackgroundColor = "#B7E4C7"        # Mint Green
+textColor = "#1F3A34"                       # Deep Green
+font = "monospace"
