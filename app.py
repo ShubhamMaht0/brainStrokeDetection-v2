@@ -173,13 +173,13 @@ def main():
                 st.image(image, channels="BGR", caption="Original Image")
 
             with col2:
-                st.image(gray_image, caption="Grayscale Image", use_column_width=True)
+                st.image(gray_image, caption="Grayscale Image", use_container_width=True)
 
             with col3:
-                st.image(blurred_image, caption="Blurred Image", use_column_width=True)
+                st.image(blurred_image, caption="Blurred Image", use_container_width=True)
 
             with col4:
-                st.image(edges_image, caption="Edge Detection", use_column_width=True)
+                st.image(edges_image, caption="Edge Detection", use_container_width=True)
 
             # Final Prediction (using original image processed for the model)
             prediction = predict(image)
